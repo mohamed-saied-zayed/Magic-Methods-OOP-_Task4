@@ -125,6 +125,8 @@ ________________________________________
 7. __invoke()
 •	Purpose: Executes when an object is called as a function.
 •	Use Case: Simplify callable object behavior.
+
+
 class Adder {
     public function __invoke($a, $b) {
         return $a + $b;
