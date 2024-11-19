@@ -123,6 +123,7 @@ $product = new Product('Laptop', 1500);
 echo $product; // Outputs: Product: Laptop, Price: 1500
 ________________________________________
 7. __invoke()
+
 •	Purpose: Executes when an object is called as a function.
 •	Use Case: Simplify callable object behavior.
 
@@ -136,8 +137,6 @@ class Adder {
 $add = new Adder();
 echo $add(3, 4); // Outputs: 7
  
-
-
 
 ________________________________________
 
